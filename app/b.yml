@@ -1,1 +1,39 @@
-app
+app_require:
+  sept:
+    custom:
+      war: lap
+app::test::team3:
+  require: name[apcdefg]
+app::test::team9:
+  require: name[apcdefg]
+app::test::team5:
+  require: name[apcdefg]
+app::test::team7:
+  require: name[apcdefg]
+app::test::team6:
+  require: name[apcdefg]
+app::test::team10:
+  require: name[apcdefg]
+app::test::team2:
+  require: name[apcdefg]
+  
+  
+  lowp_require:
+  sept:
+    custom:
+      war: lap
+  
+  down_require:
+  sept:
+    custom:
+      war: lap
+
+  up_require:
+  sept:
+    custom:
+      war: lap
+
+  temp_require:
+  sept:
+    custom:
+      war: lap
