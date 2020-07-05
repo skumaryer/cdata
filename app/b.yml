@@ -18,6 +18,8 @@ app::test::team2:
   require: name[apcdefg]
 app::test::team1010:
   require: name[apcdefg]
+app::test::team1015:
+  require: name[apcdefg]
   
   
   lowp_require:
